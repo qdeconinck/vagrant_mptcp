@@ -22,7 +22,7 @@ Using it
 
 Get it and use it:
 
-    git clone https://github.com/rbauduin/vagrant_mptcp.git
+    git clone https://github.com/qdeconinck/vagrant_mptcp.git
     cd vagrant_mptcp
     # only the first time:
     vagrant plugin install vagrant-triggers
