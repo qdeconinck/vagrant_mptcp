@@ -7,7 +7,7 @@ support from the host.
 
 Requirements
 ============
-You need a recent vagrant installed and virtualbox. Get it at http://www.vagrantup.com/downloads.html
+You need a recent vagrant installed (>=2.0.0) and virtualbox. Get it at http://www.vagrantup.com/downloads.html
 and https://www.virtualbox.org/wiki/Downloads
 
 When vagrant is installed, you need to install the vagrant-trigger plugin:

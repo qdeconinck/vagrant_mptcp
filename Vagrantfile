@@ -4,15 +4,16 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
+Vagrant.require_version ">= 2.0.0"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "rbauduin/mptcp-minimal"
-
-  config.vm.hostname = "mptcpbox"
+  # config.vm.box = "rbauduin/mptcp-minimal"
+  config.vm.box = "qdeconinck/mptcp"
+  config.vm.hostname = "mptcp"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -144,7 +145,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   You can now become root with 
     sudo su
 
-  and manage this debian virtual machine.
+  and manage this ubuntu virtual machine.
 
    #######################################################################
 }   
